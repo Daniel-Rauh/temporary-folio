@@ -60,10 +60,10 @@ h1{
     font-family: Athene;
     font-size: 8rem;
     font-weight: 100;
+    margin: 0;
 }
 #folio h1{
     color: #002a5a;
-    margin: 0;
     border-bottom: 1px solid #002a5a;
 }
 .dash{
@@ -92,4 +92,11 @@ h2>span{
 }
 .easter:hover~.creepy{
     display: inline-block;
+}
+h4{
+    margin-left: 5%;
+}
+#release{
+    padding: 8vh 5% 0 0;
+    background: #F4C4C4;
 }
