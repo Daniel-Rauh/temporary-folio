@@ -101,11 +101,11 @@ h4{
     font-size: 0.8rem;
 }
 #release h4{
-    margin-left: 10%;
+    margin-left: 7%;
 }
 #release{
     color: #282b29;
-    padding: 8vh 5% 10vh 0;
+    padding: 8vh 7% 10vh 0;
     background: #F4C4C4;
 }
 p{
@@ -116,13 +116,13 @@ p{
     font-size: 0.9rem;
 }
 #release p{
-    margin-left: 55%;
+    margin-left: 62%;
 }
 table{
     border: none;
     border-color: #282b29;
     width: 45%;
-    margin: 10vh 0 13vh 50%;
+    margin: 10vh 0 13vh 57%;
     font-family: 'Open Sans', sans-serif;
 }
 td{
@@ -157,7 +157,7 @@ tr td:nth-of-type(2){
     padding: 3vh 0;
 }
 #release img{
-    margin-left: 86%;
+    margin-left: 93%;
     border-radius: 50%;
     width: 9%;
 }
@@ -165,18 +165,18 @@ tr td:nth-of-type(2){
     display: block;
     height: 2vh;
     width: 5%;
-    margin-left: 89.3%;
+    margin-left: 94.8%;
 }
 #release .easter2:hover~img{
     background: url(../img/creepy\ dude2.jpeg) center/cover no-repeat;
 }
 #works{
-    padding: 8vh 0 25vh 5%;
+    padding: 8vh 0 25vh 7%;
     background-color: #DEB873;
     color: #7d2222;
 }
 #works h4{
-    margin-left: 90%;
+    margin-left: 93%;
 }
 #works h1{
     text-align: right;
@@ -185,21 +185,21 @@ tr td:nth-of-type(2){
     margin-bottom: 8vh;
 }
 div{
-    margin: 25vh 5% 0 0;
+    margin: 25vh 7% 0 0;
 }
 div:nth-of-type(even) h2{
     text-align: right;
 }
 div h2{
     font-family: Athene;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 div h2:nth-of-type(1){
     margin: 0;
 }
 div h2:nth-of-type(2){
     margin:0;
-    padding-bottom: 40vh;
+    padding-bottom: 35vh;
 }
 div:nth-of-type(1){
     background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
@@ -212,4 +212,38 @@ div:nth-of-type(3){
 }
 div:nth-of-type(4){
     background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
+}
+#contact{
+    background: #D2D2D2;
+    color: #1d8883;
+    padding: 8vh 7% 5vh 0;
+}
+#contact h4{
+    padding-left: 7%;
+}
+#contact h3{
+    width: 40%;
+    margin: 0 0 1vh 43%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+#contact ul{
+    margin-top: 20vh;
+    list-style: none;
+}
+#contact ul li{
+    text-align: right;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+#contact ul li a{
+    text-decoration: none;
+    color: #1d8883;
+}
+#contact ul li a:hover{
+    border-bottom: 1px solid #1d8883;
 }
