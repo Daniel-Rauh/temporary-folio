@@ -72,7 +72,7 @@ h1{
 #folio img{
     margin-top: 5vh;
 }
-h2{
+#folio h2{
     font-family: Athene;
     font-size: 1.2rem;
     color: #002a5a;
@@ -87,16 +87,129 @@ h2>span{
     position: absolute;
     display: none;
 }
-.easter{
-    height: 1vh;
+.easter1{
+    display: block;
+    height: 2vh;
+    width: 5%;
+    margin: auto;
 }
-.easter:hover~.creepy{
+.easter1:hover~.creepy{
     display: inline-block;
 }
 h4{
-    margin-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+#release h4{
+    margin-left: 10%;
 }
 #release{
-    padding: 8vh 5% 0 0;
+    color: #282b29;
+    padding: 8vh 5% 10vh 0;
     background: #F4C4C4;
+}
+p{
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+#release p{
+    margin-left: 55%;
+}
+table{
+    border: none;
+    border-color: #282b29;
+    width: 45%;
+    margin: 10vh 0 13vh 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+td{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-weight: 200;
+}
+th{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+tr:nth-of-type(1){
+    font-size: 0.8rem;
+    text-align: right;
+}
+tr:not(:nth-of-type(1)) th{
+    font-size: 0.9rem;
+    width: 72%;
+    text-align: left;
+}
+tr td:nth-of-type(1){
+    text-align: left;
+    font-size: 0.6rem;
+    width: 8%;
+}
+tr td:nth-of-type(2){
+    text-align: right;
+    font-size: 0.7rem;
+    width: 20%;
+    padding: 3vh 0;
+}
+#release img{
+    margin-left: 86%;
+    border-radius: 50%;
+    width: 9%;
+}
+#release .easter2{
+    display: block;
+    height: 2vh;
+    width: 5%;
+    margin-left: 89.3%;
+}
+#release .easter2:hover~img{
+    background: url(../img/creepy\ dude2.jpeg) center/cover no-repeat;
+}
+#works{
+    padding: 8vh 0 25vh 5%;
+    background-color: #DEB873;
+    color: #7d2222;
+}
+#works h4{
+    margin-left: 90%;
+}
+#works h1{
+    text-align: right;
+}
+#works p{
+    margin-bottom: 8vh;
+}
+div{
+    margin: 25vh 5% 0 0;
+}
+div:nth-of-type(even) h2{
+    text-align: right;
+}
+div h2{
+    font-family: Athene;
+    font-size: 3rem;
+}
+div h2:nth-of-type(1){
+    margin: 0;
+}
+div h2:nth-of-type(2){
+    margin:0;
+    padding-bottom: 40vh;
+}
+div:nth-of-type(1){
+    background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
+}
+div:nth-of-type(2){
+    background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
+}
+div:nth-of-type(3){
+    background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
+}
+div:nth-of-type(4){
+    background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
 }
